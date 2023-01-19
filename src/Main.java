@@ -10,7 +10,6 @@ public class Main {
         } else {
             bonus = 0;
         }
-        int totalBalance =  balance + replenishmentAmount + bonus;
         System.out.println("Начисленный бонус - " + bonus + "руб.");
         System.out.println("Итоговый баланс - " + (balance + replenishmentAmount + bonus) + " руб.");
 
